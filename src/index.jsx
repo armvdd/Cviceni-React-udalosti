@@ -1,14 +1,14 @@
 import React from 'react'
 import { render } from 'react-dom'
 import './global.css'
-import './index.html'
-import { Uloha1 } from './Uloha1'
-import { Uloha2 } from './Uloha2'
-import { Uloha3 } from './Uloha3'
-import { Uloha4 } from './Uloha4'
-import { Uloha5 } from './Uloha5'
-import { ZaverecnyBonus1 } from './ZaverecnyBonus1'
-import { ZaverecnyBonus2 } from './ZaverecnyBonus2'
+
+import Uloha1 from './Uloha1'
+import Uloha2 from './Uloha2'
+import Uloha3 from './Uloha3'
+import Uloha4 from './Uloha4'
+import Uloha5 from './Uloha5'
+import ZaverecnyBonus1 from './ZaverecnyBonus1'
+import ZaverecnyBonus2 from './ZaverecnyBonus2'
 
 render(
 	<>

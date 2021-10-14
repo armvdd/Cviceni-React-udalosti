@@ -1,7 +1,11 @@
 import React from 'react'
 
-// Zadání: Po kliku na tlačítko zobraz bublinu s textem „Ahoj“.
+// Zadání:
+// Po kliku na tlačítko zobraz bublinu s textem „Ahoj“.
+// "Bublinou" se myslí alert v prohlížeči.
 
-export const Uloha1 = () => {
+const Uloha1 = () => {
 	return <button>Ukaž bublinu</button>
 }
+
+export default Uloha1;

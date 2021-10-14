@@ -1,8 +1,13 @@
 import React from 'react'
 import hradUrl from './hrad.svg'
 
-// Zadání: Po najetí myši, `onMouseEnter` na obrázek zobraz bublinu s textem „Na hradě je myš!“
+// Zadání:
+// Po najetí myši  na obrázek (událost `onMouseEnter`)
+// zobraz bublinu s textem „Na hradě je myš!“
+// Bublina = alert v prohlížeči.
 
-export const Uloha2 = () => {
+const Uloha2 = () => {
 	return <img src={hradUrl} width={60} height={60} alt="hrad" />
 }
+
+export default Uloha2;

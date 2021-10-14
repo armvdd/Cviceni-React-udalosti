@@ -4,9 +4,13 @@ import listUrl from './list.svg'
 import slunceUrl from './slunce.svg'
 import vlockaUrl from './vlocka.svg'
 
-// Zadání: Dopiš komponentu tak, aby každé tlačítko po kliknutí vypsalo, jakou volbu uživatel vybral. Například pro poslední `console.log('Uživatel zvolil zimu')`.
+// Zadání:
+// Dopiš komponentu tak, aby každé tlačítko po kliknutí vypsalo,
+// jakou volbu uživatel vybral.
+// Například pro poslední položku to bude:
+// console.log('Uživatel zvolil zimu');
 
-export const Uloha3 = () => {
+const Uloha3 = () => {
 	return (
 		<>
 			Které roční období je ve střední Evropě nejteplejší?
@@ -39,3 +43,5 @@ export const Uloha3 = () => {
 		</>
 	)
 }
+
+export default Uloha3;
