@@ -12,7 +12,12 @@ import React from 'react'
 
 
 const Pozdrav = ({ jmenoVeCtvrtemPade, jmenoVPatemPade }) => {
-	return <button>@TODO</button>
+
+	const handleClick = () => {
+		console.log(`Ahoj ${jmenoVPatemPade}`);
+	}
+
+	return <button onClick={handleClick}>Pozdrav {jmenoVeCtvrtemPade}</button>
 }
 
 // Zadání 3:
@@ -20,7 +25,16 @@ const Pozdrav = ({ jmenoVeCtvrtemPade, jmenoVPatemPade }) => {
 // Jednou s tvým jménem a jednou se jménem kouče.
 
 const Uloha4 = () => {
-	return <Pozdrav jmenoVeCtvrtemPade="Luďka" jmenoVPatemPade="Luďku" />
+
+	return (
+	<>
+		<Pozdrav jmenoVeCtvrtemPade="Luďka" jmenoVPatemPade="Luďku" />
+		<Pozdrav jmenoVeCtvrtemPade="Hanku" jmenoVPatemPade="Hanko" />
+		<Pozdrav jmenoVeCtvrtemPade="Nevíma" jmenoVPatemPade="Nevíme" />
+	</>
+	)
+	
+
 }
 
 export default Uloha4;
